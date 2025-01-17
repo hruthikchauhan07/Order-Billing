@@ -1,0 +1,19 @@
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .form-container {
+      padding: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .form-container {
+      padding: 40px;
+    }
+  }
+  
+  /* Add more responsive styles for input fields, labels, etc. */
